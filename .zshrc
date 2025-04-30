@@ -123,6 +123,9 @@ alias run="bash ./scripts/run.bash"
 alias debug="bash ./scripts/debug.bash"
 alias load="source ./install/setup.zsh"
 alias build="colcon build --symlink-install"
+alias pull="git pull"
+alias push="git push"
+alias open="code . && exit"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
