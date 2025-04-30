@@ -70,7 +70,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
     alias load='source install/setup.bash'
-    alias build='colcon build'
+    alias build='colcon build --symlink-install'
+    alias run='bash ./scripts/run.bash'
+    alias debug='bash ./scripts/debug.bash'
+    alias delete='rm -rf build/ log/ install/'
 fi
 
 if [ "$color_prompt" = yes ]; then
@@ -122,7 +125,28 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/lyzl/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/lyzl/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/lyzl/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/lyzl/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
 # >>> fishros initialize >>>
- source /opt/ros/jazzy/setup.bash 
- export QT_QPA_PLATFORM=xcb
+source /opt/ros/humble/setup.bash
 # <<< fishros initialize <<<
+
+set -o vi
