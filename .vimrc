@@ -70,15 +70,6 @@ set mouse+=a
 " how to prevent the latter.
 " Do this in normal mode...
 nnoremap <Space> /
-nnoremap 1 1gt
-nnoremap 2 2gt
-nnoremap 3 3gt
-nnoremap 4 4gt
-nnoremap 5 5gt
-nnoremap 6 6gt
-nnoremap 7 7gt
-nnoremap 8 8gt
-nnoremap 9 9gt
 nnoremap <Left> gT
 nnoremap <Right> gt
 nnoremap <C-Left> <C-W>h
