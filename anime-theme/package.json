@@ -1,0 +1,21 @@
+
+{
+  "name": "anime-theme",
+  "displayName": "Anime Theme",
+  "publisher": "yourname",
+  "description": "My custom anime color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Anime Theme",
+        "uiTheme": "vs-dark",
+        "path": "./anime-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+
+{
+  "name": "Custom Lua Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#090300",
+    "editor.foreground": "#d6d6d6",
+
+
+    "editorCursor.foreground": "#d6d6d6",
+    "editorCursor.background": "#090300",
+    "editorCursor.border": "#d6d6d6",
+    "editor.selectionBackground": "#5a5758",
+    "editor.selectionForeground": "#d6d6d6",
+
+    "sideBar.background": "#090300",
+    "sideBar.foreground": "#d6d6d6",
+
+    "activityBar.background": "#090300",
+    "activityBar.foreground": "#d6d6d6",
+
+    "statusBar.background": "#090300",
+    "statusBar.foreground": "#d6d6d6",
+
+    "tab.activeBackground": "#090300",
+    "tab.activeForeground": "#d6d6d6",
+    "tab.inactiveBackground": "#090300",
+    "tab.inactiveForeground": "#a5a2a2",
+    "tab.hoverBackground": "#090300",
+    "tab.hoverForeground": "#d6d6d6",
+    "tab.border": "#5a5758",
+
+    "panel.background": "#090300",
+    "panel.foreground": "#d6d6d6",
+
+    "editorGroup.background": "#090300",
+    "editorGroupHeader.tabsBackground": "#090300",
+
+    "scrollbarSlider.background": "#5a5758",
+    "scrollbarSlider.hoverBackground": "#7a7778",
+    "scrollbarSlider.activeBackground": "#9a9798",
+
+    "editorGroup.border": "#5a5758",
+    "sideBar.border": "#5a5758",
+    "statusBar.border": "#5a5758"
+  },
+ "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#6272a4",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#f1fa8c"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#bd93f9"
+      }
+    },
+    {
+      "scope": ["variable", "identifier"],
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#ff79c6"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#8be9fd"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "support.type", "support.class"],
+      "settings": {
+        "foreground": "#ffb86c"
+      }
+    },
+    {
+      "scope": ["invalid", "invalid.deprecated"],
+      "settings": {
+        "foreground": "#ffffff",
+        "background": "#ff5555"
+      }
+    }
+  ]
+
+}
