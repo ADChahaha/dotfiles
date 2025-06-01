@@ -17,14 +17,5 @@ ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 # 配置wezterm
 ln -s ~/dotfiles/wezterm ~/.config/wezterm
 ```
-如果使用bash的话
-```bash
-ln -s ~/dotfiles/.bashrc ~/.bashrc 
-```
-替换
-```bash
-ln -s ~/dotfiles/.zshrc ~/.zshrc
-```
-
 ## 关于wezterm
 wezterm的图片文件存在wezterm/backdrops下
