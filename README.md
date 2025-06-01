@@ -19,3 +19,5 @@ ln -s ~/dotfiles/wezterm ~/.config/wezterm
 ```
 ## 关于wezterm
 wezterm的图片文件存在wezterm/backdrops下
+
+
