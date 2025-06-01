@@ -2,7 +2,9 @@
 
 ## Requirements
 zsh
+
 powerlevel10k
+
 wezterm
 
 ## USAGE
