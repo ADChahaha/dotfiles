@@ -126,6 +126,7 @@ alias build="colcon build --symlink-install"
 alias pull="git pull"
 alias push="git push"
 alias open="code . && exit"
+alias clr="clear"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -144,3 +145,10 @@ unset __conda_setup
 eval "$(register-python-argcomplete3 ros2)"
 eval "$(register-python-argcomplete3 colcon)"
 bindkey -v
+
+[ -f "/home/lyzl/.ghcup/env" ] && . "/home/lyzl/.ghcup/env" # ghcup-env
+
+# open rust
+source "$HOME/.cargo/env"
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"

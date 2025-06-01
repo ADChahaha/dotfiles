@@ -150,3 +150,4 @@ source /opt/ros/humble/setup.bash
 # <<< fishros initialize <<<
 
 set -o vi
+. "$HOME/.cargo/env"

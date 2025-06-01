@@ -86,4 +86,4 @@ nnoremap p "+p
 vnoremap y "+y
 vnoremap d "+d
 vnoremap p "+p
-" ...and in insert mode
+
