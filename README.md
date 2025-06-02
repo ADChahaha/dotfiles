@@ -17,6 +17,14 @@ ln -s ~/dotfiles/.p10k.zsh ~/.p10k.zsh
 # 配置wezterm
 ln -s ~/dotfiles/wezterm ~/.config/wezterm
 ```
+
+替换终端
+```bash
+https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file
+```
+
+
+
 ## 关于wezterm
 wezterm的图片文件存在wezterm/backdrops下
 

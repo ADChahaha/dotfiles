@@ -1,4 +1,3 @@
-
 {
   "name": "Custom Lua Theme",
   "type": "dark",
@@ -39,6 +38,12 @@
     "scrollbarSlider.background": "#5a5758",
     "scrollbarSlider.hoverBackground": "#7a7778",
     "scrollbarSlider.activeBackground": "#9a9798",
+
+    "titleBar.activeBackground": "#090300",
+    "titleBar.activeForeground": "#d6d6d6",
+    "titleBar.inactiveBackground": "#090300",
+    "titleBar.inactiveForeground": "#a5a2a2",
+    "titleBar.border": "#5a5758",
 
     "editorGroup.border": "#5a5758",
     "sideBar.border": "#5a5758",

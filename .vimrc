@@ -70,10 +70,6 @@ set mouse+=a
 " how to prevent the latter.
 " Do this in normal mode...
 nnoremap <Space> /
-# nnoremap <C-Left> <C-W>h
-# nnoremap <C-Right> <C-W>l
-# nnoremap <C-Up> <C-W>k
-# nnoremap <C-Down> <C-W>j
 nnoremap <C-W> <C-W>c
 nnoremap <C-a> ggVG
 " 把 y/d/p 映射为使用系统剪贴板
