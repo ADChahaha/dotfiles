@@ -69,15 +69,15 @@ set mouse+=a
 " bad habit. The former is enforceable through a .vimrc, while we don't know
 " how to prevent the latter.
 " Do this in normal mode...
-nnoremap <Space> /
-nnoremap <C-W> <C-W>c
-nnoremap <C-a> ggVG
-" 把 y/d/p 映射为使用系统剪贴板
-nnoremap y "+y
-nnoremap d "+d
-nnoremap p "+p
 
-vnoremap y "+y
-vnoremap d "+d
-vnoremap p "+p
+" nnoremap <C-W> <C-W>c
+" nnoremap <C-a> ggVG
+" 把 y/d/p 映射为使用系统剪贴板
+" nnoremap y "+y
+" nnoremap d "+d
+" nnoremap p "+p
+
+" vnoremap y "+y
+" vnoremap d "+d
+" vnoremap p "+p
 
